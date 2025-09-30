@@ -7,7 +7,7 @@ public class ifCetakKRS24 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("--Cetak KRS Siakad--");
-        System.out.println("Apakah UKT Sudah Lunas? (true/false): ");
+        System.out.print("Apakah UKT Sudah Lunas? (true/false): ");
         boolean uktlunas = sc.nextBoolean();
 
         if (uktlunas){
