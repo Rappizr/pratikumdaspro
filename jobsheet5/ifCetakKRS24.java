@@ -14,6 +14,7 @@ public class ifCetakKRS24 {
             System.out.println("Pembayaran UKT Terverifikasi");
             System.out.println("Silahkan Cetak KRS Dan Minta TTD DPA");
         }
+        
         sc.close();
     }
 }
