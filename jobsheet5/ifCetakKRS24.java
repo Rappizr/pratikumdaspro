@@ -14,6 +14,11 @@ public class ifCetakKRS24 {
         } else {
             System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
         }
+        String hasil = uktLunas
+        ? "Pembayaran UKT Terverifikasi\nSilahkan Cetak KRS Dan Minta TTD DPA"
+        : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
+
+        System.out.println("[Ternary] " + hasil);
 
         sc.close();
     }
