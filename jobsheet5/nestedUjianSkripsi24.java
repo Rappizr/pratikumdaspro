@@ -10,9 +10,9 @@ public class nestedUjianSkripsi24 {
         System.out.print("Apakah Mahasiswa Sudah Bebas Kompen? (Ya/Tidak): ");
         String bebasKompen = sc.nextLine().trim();
 
-        System.out.print("Masukan Jumlah Log Bimbingan 1: ");
+        System.out.print("Masukan Jumlah Log Bimbingan Pembimbing 1: ");
         int bimbinganP1 = sc.nextInt();
-        System.out.print("Masukan Jumlah Log Bimbingan 2: ");
+        System.out.print("Masukan Jumlah Log Bimbingan Pembimbing 2: ");
         int bimbinganP2 = sc.nextInt();
 
         if (bebasKompen.equalsIgnoreCase("Ya")) {
