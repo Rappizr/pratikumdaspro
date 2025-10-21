@@ -25,6 +25,7 @@ public class SiakadFor24 {
                 jumlahTLulus++;
             }
         }
+        
         System.out.println("Nilai Tertinggi : " + tertinggi);
         System.out.println("Nilai Terendah : " + terendah);
         System.out.println("\n===== Jumlah Lulus & Tidak Lulus =====");
