@@ -26,6 +26,7 @@ public class KafeDoWhile24 {
             totalHarga = (kopi*hargaKopi) + (teh*hargaTeh) + (roti*hargaRoti);
             System.out.println("total yang harus di bayar Rp. : " + totalHarga);
             sc.nextLine();
+            
         } while (true);
 
         System.out.println("semua transaksi selesai.");
