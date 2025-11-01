@@ -10,13 +10,13 @@ public class NilaiKelompok24 {
         while (i <= 6) {
             System.out.println("Kelompok " + i);
 
-           int totalNilai = 0;
+           float totalNilai = 0;
             for (int j = 1; j <= 5; j++) {
                 System.out.print("Nilai dari kelompok penilai " + j + ": ");
                int nilai = sc.nextInt();
                 totalNilai += nilai;
             }
-           double rataNilai = totalNilai/5.0;
+           float rataNilai = totalNilai/5;
            System.out.println("Kelompok " + i + ": nilai rata-rata = " + rataNilai);
             i++;
         }
