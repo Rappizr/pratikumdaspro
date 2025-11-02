@@ -32,7 +32,6 @@ public class KopiSenja24 {
             totalSP += jumlahP;
             totalSI += totalIC;
         }
-
         System.out.println("Total seluruh Cabang:");
         System.out.println("Pelanggan: " + totalSP + " orang");
         System.out.println("Item terjual: " + totalSI + " item");
