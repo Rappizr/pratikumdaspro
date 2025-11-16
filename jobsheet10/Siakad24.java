@@ -19,7 +19,7 @@ public class Siakad24 {
         }
 
         System.out.println("\n=======================");
-        System.out.println("Rata rata nilai stiap mata kuliah");
+        System.out.println("Rata rata nilai setiap mata kuliah");
         for(int j = 0;j<3;j++){
             double totalPermatkul = 0;
 
@@ -29,5 +29,4 @@ public class Siakad24 {
         System.out.println("Mata kuliah "+(j+1)+" : "+totalPermatkul/4);
         }
     }
-    
 }
