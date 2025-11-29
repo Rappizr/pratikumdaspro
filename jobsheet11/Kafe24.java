@@ -1,11 +1,20 @@
 package jobsheet11;
 
+import java.util.Scanner;
+
 public class Kafe24 {
     public static void main(String[] args) {
         Menu("Budi", true, "DISKON30");
     }
     public static void Menu(String namaPelanggan, boolean isMember,String kodepromo) {
         System.out.println("Selamat Datang, "+namaPelanggan+"!");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\nMasukkan nomor menu yang ingin anda pesan: ");
+        int pilihanMenu = sc.nextInt();
+        System.out.print("Masukkan jumlah item yang ingin anda pesan: ");
+        int banyakItem = sc.nextInt();
+        int totalHarga = hitungTotalHarga(pilihanMenu, banyakItem);
+        System.out.println("Total harga untuk pesanan anda: Rp."+totalHarga);
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
         }
@@ -25,5 +34,11 @@ public class Kafe24 {
         System.out.println("6. Mie Goreng - Rp 18,000");
         System.out.println("=============================");
         System.out.println("Silahkan Pilih Menu Yang Anda Inginkan.");
+    }
+    public static int hitungTotalHarga(int pilihanMenu, int banyakItem){
+        int[] hargaItems = {15000, 20000, 22000, 12000, 10000, 18000};
+
+        int hargaTotal = hargaItems[pilihanMenu-1] * banyakItem;
+        return hargaTotal;
     }
 }
